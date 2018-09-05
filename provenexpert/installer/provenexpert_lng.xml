@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xtcommerceplugin>
+	<language_content>
+		<phrase>
+			<key>TEXT_PROVENEXPERT</key>
+			<class>admin</class>
+					<en><value>ProvenExpert</value></en>
+					<de><value>ProvenExpert</value></de>
+		</phrase>
+        <phrase>
+            <key>TEXT_PROVENEXPERT_RICHSNIPPETS</key>
+                <class>admin</class>
+                    <en><value>Richsnippets</value></en>
+                    <de><value>Richsnippets</value></de>
+        </phrase>
+        <phrase>
+            <key>TEXT_PROVENEXPERT_WIDGETS</key>
+                <class>admin</class>
+                    <en><value>Rating Bars</value></en>
+                    <de><value>Bewertungsleisten</value></de>
+        </phrase>
+        <phrase>
+            <key>TEXT_PROVENEXPERT_API_HL</key>
+                <class>admin</class>
+                    <en><value>API Access</value></en>
+                    <de><value>API Zugang</value></de>
+        </phrase>
+        <phrase>
+            <key>TEXT_PROVENEXPERT_SURVEYS_HL</key>
+                <class>admin</class>
+                    <en><value>Surveys</value></en>
+                    <de><value>Umfragen</value></de>
+        </phrase>
+        <phrase>
+            <key>TEXT_PROVENEXPERT_RS_HL</key>
+                <class>admin</class>
+                    <en><value>Richsnippets</value></en>
+                    <de><value>Richsnippets</value></de>
+        </phrase>
+        <phrase>
+            <key>TEXT_PROVENEXPERT_WIDGETS_HL</key>
+                <class>admin</class>
+                    <en><value>Rating Bar</value></en>
+                    <de><value>Bewertungsleiste</value></de>
+        </phrase>
+        <phrase>
+			<key>TEXT_PE_RSACTIVE</key>
+				<class>admin</class>
+					<en><value>Active</value></en>
+					<de><value>Aktiviert</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_APIID</key>
+				<class>admin</class>
+					<en><value>API-ID</value></en>
+					<de><value>API-ID</value></de>
+		</phrase>
+		<phrase>
+			<key>TEXT_PE_APIKEY</key>
+				<class>admin</class>
+					<en><value>API-KEY</value></en>
+					<de><value>API-KEY</value></de>
+		</phrase>
+		<phrase>
+			<key>TEXT_PE_RSAPISCRIPTVERSION</key>
+				<class>admin</class>
+					<en><value>Script Version</value></en>
+					<de><value>Skript Version</value></de>
+		</phrase>
+		<phrase>
+			<key>TEXT_PE_RSVERSION</key>
+				<class>admin</class>
+					<en><value>Selected Snippet</value></en>
+					<de><value>Ausgewähltes Snippet</value></de>
+		</phrase>		
+		<phrase>
+			<key>TEXT_PE_WIDGETACTIVE</key>
+				<class>admin</class>
+					<en><value>Active</value></en>
+					<de><value>Aktiviert</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_TYPE</key>
+				<class>admin</class>
+					<en><value>Type</value></en>
+					<de><value>Type</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_WIDTH</key>
+				<class>admin</class>
+					<en><value>Width</value></en>
+					<de><value>Width</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_FEEDBACK</key>
+				<class>admin</class>
+					<en><value>Feedback</value></en>
+					<de><value>Feedback</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_SLIDER</key>
+				<class>admin</class>
+					<en><value>Slider</value></en>
+					<de><value>Slider</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_FIXED</key>
+				<class>admin</class>
+					<en><value>Fixed</value></en>
+					<de><value>Fixed</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_ORIGIN</key>
+				<class>admin</class>
+					<en><value>Origin</value></en>
+					<de><value>Origin</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_POSITION</key>
+				<class>admin</class>
+					<en><value>Position</value></en>
+					<de><value>Position</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_SIDE</key>
+				<class>admin</class>
+					<en><value>Side</value></en>
+					<de><value>Side</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_VIEWPORT</key>
+				<class>admin</class>
+					<en><value>Viewport</value></en>
+					<de><value>Viewport</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_STYLE</key>
+				<class>admin</class>
+					<en><value>Style</value></en>
+					<de><value>Style</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_AVATAR</key>
+				<class>admin</class>
+					<en><value>Avatar</value></en>
+					<de><value>Avatar</value></de>
+		</phrase>	
+		<phrase>
+			<key>TEXT_PE_COMPETENCE</key>
+				<class>admin</class>
+					<en><value>Competence</value></en>
+					<de><value>Competence</value></de>
+		</phrase>
+        <phrase>
+            <key>TEXT_PE_MISSING_FILE</key>
+                <class>admin</class>
+                    <en><value>File missing. Please reinstall plugin.</value></en>
+                    <de><value>Datei fehlt. Bitte Plugin neu installieren.</value></de>
+        </phrase>
+        <phrase>
+            <key>TEXT_PE_CACHE_UNWRITABLE</key>
+                <class>admin</class>
+                    <en><value>Cannot write Cache. Please check folder permissions for plugins/provenexpert/cache/.</value></en>
+                    <de><value>Cache kann nicht geschrieben werden. Bitte die Ordnerberechtigungen in plugins/provenexpert/cache/ prüfen.</value></de>
+        </phrase>
+        <phrase>
+            <key>TEXT_PE_API_AUTH_MISSING</key>
+                <class>admin</class>
+                    <en><value>Please click on ProvenExpert->API Access on the left to enter API ID and Key.</value></en>
+                    <de><value>Bitte links unter ProvenExpert->API Zugang die API ID und den Key angeben.</value></de>
+        </phrase>
+        <phrase>
+            <key>TEXT_PE_SHOW_PREVIEW</key>
+                <class>admin</class>
+                    <en><value>Show preview</value></en>
+                    <de><value>Vorschaubild anzeigen</value></de>
+        </phrase>
+        <phrase>
+            <key>TEXT_PE_PREVIEW</key>
+                <class>admin</class>
+                    <en><value>Preview</value></en>
+                    <de><value>Vorschau</value></de>
+        </phrase>
+        <phrase>
+            <key>TEXT_PE_API_UNREACHABLE</key>
+            <class>admin</class>
+            <en><value>API id and key wrong or API unreachable.</value></en>
+            <de><value>API-Zugangsdaten falsch oder API nicht erreichbar.</value></de>
+        </phrase>
+    </language_content>
+</xtcommerceplugin>

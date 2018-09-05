@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xtcommerceplugin>
+    <title>ProvenExpert</title>
+    <version>1.1.0</version>
+    <code>provenexpert</code>
+    <url>http://www.ProvenExpert.com</url>
+    <type>marketing</type>
+	<description>ProvenExpert - Bewertungsmanagement</description>
+    <icon>provenexpert_large.png</icon>
+	
+	<permission_check>
+		<resource>plugins/provenexpert/cache/</resource>
+	</permission_check>
+
+    <db_install>
+        <![CDATA[require_once _SRV_WEBROOT._SRV_WEB_PLUGINS.'provenexpert/installer/db_install.php';]]>
+    </db_install>
+    <db_uninstall>
+        <![CDATA[require_once _SRV_WEBROOT._SRV_WEB_PLUGINS.'provenexpert/installer/db_uninstall.php';]]>
+    </db_uninstall>
+	
+	<minimumupdateversion>1.0.0</minimumupdateversion>
+	<db_update>
+
+    </db_update>
+
+    <plugin_code>
+    <code>
+        <hook>page_registry.php:bottom</hook>
+        <phpcode><![CDATA[require_once _SRV_WEBROOT._SRV_WEB_PLUGINS.'provenexpert/hooks/page_registry_php_bottom.php';]]></phpcode>
+        <order>1</order>
+        <active>1</active>
+    </code>
+
+     <code>
+        <hook>display.php:content_top</hook>
+        <phpcode><![CDATA[require_once _SRV_WEBROOT._SRV_WEB_PLUGINS.'provenexpert/hooks/display_php_content_top.php';]]></phpcode>
+        <order>1</order>
+        <active>1</active>
+    </code>
+
+    <code>
+        <hook>display.php:content_bottom</hook>
+        <phpcode><![CDATA[require_once _SRV_WEBROOT._SRV_WEB_PLUGINS.'provenexpert/hooks/display_php_content_bottom.php';]]></phpcode>
+        <order>1</order>
+        <active>1</active>
+    </code>
+
+    <code>
+        <hook>admin_dropdown.php:dropdown</hook>
+        <phpcode><![CDATA[require_once _SRV_WEBROOT._SRV_WEB_PLUGINS.'provenexpert/hooks/admin_dropdown_php_dropdown.php';]]></phpcode>
+        <order>1</order>
+        <active>1</active>
+    </code>
+
+    <code>
+        <hook>css_admin.php:css</hook>
+        <phpcode><![CDATA[require_once _SRV_WEBROOT._SRV_WEB_PLUGINS.'provenexpert/hooks/css_admin_php.php';]]></phpcode>
+        <order>1</order>
+        <active>1</active>
+    </code>
+
+    </plugin_code>
+
+</xtcommerceplugin>
